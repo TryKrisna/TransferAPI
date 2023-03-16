@@ -1,0 +1,39 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "82d9723a-a08e-4013-9ee7-c307832cb8c9:string:SERIAL_NUMBER_123",
+    "$template": {
+      "name": "032f3690-9d3b-4230-9b65-7248e7ccbde5:string:KrisnaBaccII_TEMPLATE",
+      "type": "d6b5d29f-ba6f-46a7-af81-9943259360c9:string:EMBEDDED_RENDERER",
+      "url": "71b99e3f-7432-4b81-b5ce-3e0ddbbce707:string:https://precious-pithivier-780457.netlify.app/"
+    },
+    "asset": {
+      "type": "6f735afc-97c3-4ddf-89c5-3f854ebe5e4d:string:Fast Car3",
+      "model": "ac78a2a2-d855-433b-a09f-abe60c7e04af:string:Lambo3",
+      "issuDate": "f2a70164-b5f2-494c-8c98-4fa9f4550cab:string:14-03-20233",
+      "image": "d331ae9d-0c95-425f-8082-93a56e4f39c4:string:https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/model_choose/2023/aventador_ultimae_m.png"
+    },
+    "issuers": [
+      {
+        "name": "92876d4b-be88-483c-b274-bcf288d4f2d0:string:KRISNA",
+        "documentStore": "56b9e1ca-0eef-45bf-b4a2-f44a194ed6e7:string:0x623E3EFd5038322e296C9eDe0738FA807Db83838",
+        "identityProof": {
+          "type": "30c3cefa-e788-4c89-80f8-ede63394f4e1:string:DNS-TXT",
+          "location": "610dc99c-3b2a-43c7-b1b4-14b58b0119be:string:krisna.lol"
+        }
+      }
+    ],
+    "recipient": {
+      "name": "8965218c-4446-42ee-872b-aeca22ff9451:string:morning 3",
+      "address": "cd066f1c-44d8-43e6-8181-aa7d32128ae6:string:pp3"
+    }
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "8363c11a0bd1555f024ed57abdf6f8c43029d9a6d61ac35b6818287b6041112e",
+    "proof": [
+      "f348f21e1fdb9a63b5730c18a45729d98d4052370dc18d8b5db0e45822df65f9"
+    ],
+    "merkleRoot": "4864e79cccaafc3eedc76bfb3b88d958e7a46ceb64e4939fb9efd5540cb4ccf9"
+  }
+}

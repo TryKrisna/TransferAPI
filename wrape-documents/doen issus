@@ -1,0 +1,39 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "91858902-2623-45bc-9566-d5fd10d8669d:string:SERIAL_NUMBER_123",
+    "$template": {
+      "name": "47490b62-8125-40bf-a014-728a1b5a27ac:string:KrisnaBaccII_TEMPLATE",
+      "type": "4880069a-3e6f-4e07-9363-ee3f13467d7d:string:EMBEDDED_RENDERER",
+      "url": "4d8dc767-c8a5-442b-b25e-5e49f9fd18b2:string:https://precious-pithivier-780457.netlify.app/"
+    },
+    "asset": {
+      "type": "0f0f800c-b900-476c-b157-f737d0eb7b7c:string:car",
+      "model": "edfa9821-aba4-42f6-be0e-938e619505c6:string:toyotaa",
+      "issuDate": "5f31cfe9-6a37-4f3f-80e7-babeee932939:string:27-02-2023",
+      "image": "27c28219-6a26-494a-af25-9f9045a3f858:string:https://i0.wp.com/generic.wordpress.soton.ac.uk/digital-learning/wp-content/uploads/sites/321/2017/11/DEMO.png?fit=399%2C166"
+    },
+    "issuers": [
+      {
+        "name": "3a62409c-889b-4fe3-a0ad-9b3fc856f7bd:string:KRISNA",
+        "documentStore": "a2bce1b3-7855-46da-bd45-4d9f95241c53:string:0x623E3EFd5038322e296C9eDe0738FA807Db83838",
+        "identityProof": {
+          "type": "14a5883d-2c98-40c2-b83c-2a3f29ab76c9:string:DNS-TXT",
+          "location": "39c85348-f3a7-41e7-84ba-034e483782ce:string:krisna.lol"
+        }
+      }
+    ],
+    "recipient": {
+      "name": "24a47e16-1c69-40c8-aba9-dc69ad4edf06:string:okok",
+      "address": "f8a51631-ef40-4007-a352-9e92a402c343:string:PP DG"
+    }
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "58eb102ef660c90445a803ff0de29cf2078246ee680edb4e05fe90222db95bff",
+    "proof": [
+      "1501f15c47acddb8b21a5b92211bbf70846cc42f42ca27acd5c77b39f0d94b39"
+    ],
+    "merkleRoot": "afe46036ea4324d53f407ec5b4ad685f6087e6505faf4c8661aac9d728ade81b"
+  }
+}

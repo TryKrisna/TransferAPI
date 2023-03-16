@@ -1,0 +1,39 @@
+{
+    "version": "https://schema.openattestation.com/2.0/schema.json",
+    "data": {
+        "id": "fe75ee0e-195e-4b54-ac06-d69a9e27bd49:string:SERIAL_NUMBER_123",
+        "$template": {
+            "name": "ccc7c00b-f71f-4a14-8e90-8a6de5d867b4:string:KrisnaBaccII_TEMPLATE",
+            "type": "8e14b381-a061-49f5-965f-2ff93626d4a2:string:EMBEDDED_RENDERER",
+            "url": "1c3e825b-8a53-4497-b839-ee429df234b5:string:https://precious-pithivier-780457.netlify.app/"
+        },
+        "asset": {
+            "type": "bf7aa7a1-7106-46bc-9d13-6a9726724db4:string:Casadafdsfdsr",
+            "model": "2d0e62da-65e8-4010-bf76-57f90319c32f:string:asdfasd",
+            "issuDate": "7a9e029f-40c9-4310-b851-f7b1bd1da42a:string:27-02-2023",
+            "image": "ce1633d5-5ff5-452c-bb83-bbec42d905b6:undefined:undefined"
+        },
+        "issuers": [
+            {
+                "name": "87ab3ca6-eb8b-48de-befa-4b7d55b5953a:string:KRISNA",
+                "documentStore": "d2ba8738-68d0-480b-82c7-2f0959166131:string:0x623E3EFd5038322e296C9eDe0738FA807Db83838",
+                "identityProof": {
+                    "type": "ecdd6e07-2927-4bba-9a95-bb5fe1a5bdcd:string:DNS-TXT",
+                    "location": "63dbf04d-593b-4b6f-bf52-d9c79faab28d:string:krisna.lol"
+                }
+            }
+        ],
+        "recipient": {
+            "name": "add39233-8d67-4cf1-a038-0e405255e89c:string:kom",
+            "address": "5cfb0836-1ad5-4c54-bbeb-8d30c6d6de5f:string:asddsafasdf Phnom Penh Cambodia"
+        }
+    },
+    "signature": {
+        "type": "SHA3MerkleProof",
+        "targetHash": "419f7288193bb8f4f681b2d492ee501bbc287589d450251d8e44bd725f615398",
+        "proof": [
+            "3d8bbf4bab40185e4de34a8d3bb4dd443cfe2e2ca7b61e8881ef25f8039cbc3b"
+        ],
+        "merkleRoot": "132379f0c3b41bba141e1011f65c485efc46f367c58e17bc5b9dea6ec708097b"
+    }
+}
